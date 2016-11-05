@@ -1,0 +1,30 @@
+<h1>Cats</h1>
+
+<div class="cat-list">
+    {{#each model as |cat|}}
+    {{#link-to 'cats.cat' cat}}
+        <div class="cat-single">
+
+                <h2>{{cat.name}}</h2>
+
+
+            {{#if cat.hasFIV }}
+                <p>
+                    This is an unhealthy cat, but it needs love anyway!
+                </p>
+            {{else}}
+                <p>
+                    This is a healthy cat!
+                </p>
+            {{/if}}
+
+            <img src="{{cat.photo}}" class="little" alt="{{cat.title}}" />
+
+        </div>
+    {{/link-to}}    
+    {{/each}}
+</div>
+
+<aside>
+    {{outlet}}
+</aside>

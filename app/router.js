@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('cats', function() {
+      this.route('cat', {path: ':cat_id'});
+  });
+  this.route('new');
 });
 
 export default Router;

@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica Neue";
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 40px;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover {
+    color: tomato;
+}
+
+.little {
+    width: 200px;
+}
+
+
+.cat-list, aside {
+    float: left;
+}
+
+.cat-list {
+    width: 30%;
+}
+
+aside {
+    width: 70%;
+}
