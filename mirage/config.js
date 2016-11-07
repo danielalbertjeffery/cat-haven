@@ -4,5 +4,7 @@ export default function() {
 
     this.get('/cats');
     this.get('/cats/:id');
+    this.post('/cats');
+    this.del('/cats/:id')
 
 }

@@ -14,7 +14,7 @@ export default [
         isVaccinated: true,
         hasFIV: false,
         breed: "Russian Blue",
-        photo: "http://nextranks.com/data_images/cats/russian-blue/russian-blue-08.jpg"
+        photo: "https://s-media-cache-ak0.pinimg.com/originals/ab/56/16/ab561690164d143eb0f5e83f110ad76a.jpg"
     },
     {
         name: "Raggy",

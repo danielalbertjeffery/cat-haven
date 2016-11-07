@@ -4,6 +4,8 @@
 
 <img src="{{model.photo}}" alt="{{model.name}}" /><br>
 
+<button {{action 'deleteCat'}}>Take home cat</button>
+
 {{#link-to 'cats'}}
     Back to cats
 {{/link-to}}
